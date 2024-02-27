@@ -8,4 +8,11 @@ ApplicationWindow
     height: 640
     visible: true
     title: qsTr("Available environment")
+
+    StackView
+    {
+        id: stackView
+        initialItem: ("SplashForm.ui.qml")
+        anchors.fill: parent
+    }
 }

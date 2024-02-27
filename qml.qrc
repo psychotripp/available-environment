@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>SplashForm.ui.qml</file>
+        <file>content/fonts/Roboto.ttf</file>
     </qresource>
 </RCC>
