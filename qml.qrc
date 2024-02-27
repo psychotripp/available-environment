@@ -3,5 +3,10 @@
         <file>main.qml</file>
         <file>SplashForm.ui.qml</file>
         <file>content/fonts/Roboto.ttf</file>
+        <file>HomeForm.ui.qml</file>
+        <file>CustomButton.qml</file>
+        <file>content/images/microphone.svg</file>
+        <file>content/images/route.svg</file>
+        <file>LowerButtonRow.qml</file>
     </qresource>
 </RCC>
