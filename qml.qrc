@@ -3,5 +3,6 @@
         <file>main.qml</file>
         <file>SplashForm.ui.qml</file>
         <file>content/fonts/Roboto.ttf</file>
+        <file>HomeForm.ui.qml</file>
     </qresource>
 </RCC>

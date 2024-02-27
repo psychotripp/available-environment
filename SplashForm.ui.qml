@@ -26,8 +26,3 @@ Page
         anchors.centerIn: parent
     }
 }
-/*##^##
-Designer {
-    D{i:0;autoSize:true;formeditorZoom:0.75;height:640;width:360}
-}
-##^##*/
