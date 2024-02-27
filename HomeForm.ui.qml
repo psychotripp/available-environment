@@ -40,9 +40,40 @@ Page
             font.pointSize: 18
             anchors.left: parent.left
         }
-    }
- }
 
+        Column
+        {
+            id: buttonsColumn
+            topPadding: 130
+            spacing: 2
+            anchors
+            {
+                left: parent.left
+                right: parent.right
+            }
+
+            CustomButton
+            {
+                buttonText: "Настройки"
+            }
+
+            CustomButton
+            {
+                buttonText: "Обучение"
+            }
+
+            CustomButton
+            {
+                buttonText: "Профиль"
+            }
+
+            CustomButton
+            {
+                buttonText: "Отзыв"
+            }
+        }
+    }
+}
 /*##^##
 Designer {
     D{i:0;autoSize:true;height:640;width:360}
