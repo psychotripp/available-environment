@@ -72,6 +72,8 @@ Page
                 buttonText: "Отзыв"
             }
         }
+
+        LowerButtonRow{}
     }
 }
 /*##^##
