@@ -1,4 +1,5 @@
 QT += quick
+QT += sql
 
 CONFIG += c++11
 
@@ -8,6 +9,7 @@ CONFIG += c++11
 
 SOURCES += \
         authorization.cpp \
+        databasemanager.cpp \
         main.cpp
 
 RESOURCES += qml.qrc
@@ -29,4 +31,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    authorization.h
+    authorization.h \
+    databasemanager.h
+
+DISTFILES += \
+    database.db \
+    path_to_your_database_file.db
