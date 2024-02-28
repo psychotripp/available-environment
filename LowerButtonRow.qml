@@ -3,7 +3,7 @@ import QtQuick.Controls 2.15
 
 Row
 {
-    id: buttonsRow
+    id: lowerButtonRow
     width: parent.width
     height: 50
     anchors
@@ -27,7 +27,7 @@ Row
         anchors
         {
             left: parent.left
-            right: buttonsRow.horizontalCenter
+            right: lowerButtonRow.horizontalCenter
             bottom: parent.bottom
         }
 
@@ -83,7 +83,7 @@ Row
         anchors
         {
             right: parent.right
-            left: buttonsRow.horizontalCenter
+            left: lowerButtonRow.horizontalCenter
             bottom: parent.bottom
         }
 

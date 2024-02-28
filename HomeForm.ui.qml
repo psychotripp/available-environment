@@ -12,33 +12,10 @@ Page
         color: "#656e77"
         anchors.fill: parent
 
-        Label
+        MainLabels
         {
-            id: mainText
-            color: "#dddbde"
-            text: qsTr("Главная")
-            horizontalAlignment: Text.AlignHCenter
-            verticalAlignment: Text.AlignTop
-            font.weight: Font.DemiBold
-            font.family: "Roboto"
-            topPadding: 30
-            font.pointSize: 16
-            anchors.fill: parent
-        }
-
-        Label
-        {
-            id: greetingsText
-            color: "#dddbde"
-            text: qsTr("Здравствуйте")
-            horizontalAlignment: Text.AlignLeft
-            verticalAlignment: Text.AlignTop
-            topPadding: 90
-            font.weight: Font.Normal
-            font.family: "Roboto"
-            leftPadding: 30
-            font.pointSize: 18
-            anchors.left: parent.left
+            mainText: "Главная"
+            secondaryText: "Здравствуйте"
         }
 
         Column
@@ -55,6 +32,11 @@ Page
             CustomButton
             {
                 buttonText: "Настройки"
+
+                Connections
+                {
+                    onClicked: stackView.push("SettingsForm.ui.qml")
+                }
             }
 
             CustomButton

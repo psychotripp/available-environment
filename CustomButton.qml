@@ -18,7 +18,7 @@ Button
         font.family: "Roboto"
         leftPadding: 30
         font.pointSize: 16
-        color: pressed ? "#ffffff" : "#656e77"
+        color: pressed ? "#dddbde" : "#656e77"
         anchors
         {
             left: parent.left
@@ -33,7 +33,7 @@ Button
         font.family: "Roboto"
         rightPadding: 30
         font.pointSize: 26
-        color: pressed ? "#ffffff" : "#656e77"
+        color: pressed ? "#dddbde" : "#656e77"
         anchors
         {
             right: parent.right

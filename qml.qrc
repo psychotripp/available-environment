@@ -8,5 +8,9 @@
         <file>content/images/microphone.svg</file>
         <file>content/images/route.svg</file>
         <file>LowerButtonRow.qml</file>
+        <file>SettingsForm.ui.qml</file>
+        <file>content/images/home.svg</file>
+        <file>UpperButtonRow.qml</file>
+        <file>MainLabels.qml</file>
     </qresource>
 </RCC>
